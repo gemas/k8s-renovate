@@ -4,9 +4,12 @@
   "dependencyDashboard": true,
   "dependencyDashboardApproval": true,
   "automerge": false,
+  "kubernetes": {
+    "fileMatch": ["\\.yaml$", "\\.yml$"]
+  },
   "packageRules": [
     {
-      "matchManagers": ["helm-values", "kubernetes"],
+      "matchManagers": ["helm-values", "helmv3", "kubernetes"],
       "enabled": true,
       "automerge": false
     }
