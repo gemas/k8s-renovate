@@ -5,7 +5,10 @@
   "dependencyDashboardApproval": true,
   "automerge": false,
   "kubernetes": {
-    "fileMatch": ["\\.yaml$", "\\.yml$"]
+    "managerFilePatterns": [
+      "/\\.yaml$/",
+      "/\\.yml$/"
+    ]
   },
   "packageRules": [
     {
