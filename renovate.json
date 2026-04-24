@@ -1,0 +1,14 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:recommended"],
+  "dependencyDashboard": true,
+  "dependencyDashboardApproval": true,
+  "automerge": false,
+  "packageRules": [
+    {
+      "matchManagers": ["helm-values", "kubernetes"],
+      "enabled": true,
+      "automerge": false
+    }
+  ]
+}
