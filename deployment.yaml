@@ -7,4 +7,4 @@ spec:
     spec:
       containers:
         - name: mijn-app
-          image: nginx:1.25.0
+          image: nginx:1.30.0
